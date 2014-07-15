@@ -1,0 +1,95 @@
+\documentclass[11p]{book}
+\usepackage{amsmath,mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+    \geometry{a4paper,total={210mm,297mm},left=30mm,right=20mm,top=30mm,bottom=30mm,}
+% \usepackage{upquote}% getting the right grave ` (and not ‘)!
+
+\begin{document}
+These are notes of $Vim$ taken by myself. Not all commands are listed in this list.
+\chapter*{Vim Commands List}
+\newpage
+
+\section*{Rare or unusual commands}
+\begin{tabular}{p{4cm} l}
+CTRL-] & to jump to a subject under the cursor\\
+CTRL-O & to jump back (repeat to go further back)\\
+\hline
+\end{tabular}
+\newpage
+
+\section*{Most used commands}
+The cursor moving is achieved by pressing the hjkl keys:
+\begin{itemize}
+\item h $-->$ move to the left
+\item j $-->$ move to the bottom
+\item k $-->$ move to the top
+\item l $-->$ move to the right
+\end{itemize}
+
+That is
+
+\hspace*{8cm}k \\
+\hspace*{8.5cm}$\wedge$\\
+\hspace*{8.5cm}$\>|$\\
+\hspace*{7.32cm}h $<$ - - $\>|$ - - $>$ l \\
+\hspace*{8.5cm}$\vee$ \\
+\hspace*{8.6cm}j \\
+
+By pressing $<ESC>$ Vim goes to Normal mode. \\
+
+By writing $$operator \quad [number] \quad motion$$ the operation $operator$ is repeated $[number]$ times the $motion$. 
+
+"$!$" \hspace*{0.1cm} is the override command modifier.
+
+"$:help$" gives you generic help. \\
+
+\begin{tabular}{p{2cm} p{13cm}}
+i & to start the Insert mode \\
+a & to start the Insert mode at the consecutive cursor's position\\
+v & to start the Visual mode \\
+x & to delete the character where the cursor is \\
+J & joins the next line with the actual one, which the cursor is in and it isn't need to be it at the end \\
+CTRL-R & undoes the undo \\
+CTRL-O & undoes de undoing of undo \\
+o & opens a new empty line below the cursor and puts $Vim$ in Insert mode \\
+O(uppercase) & opens a new empty line above the cursor in Insert Mode \\
+ZZ & This writes the file and exits. \\
+q! & Quit and throw things away command, whitout saving changes. \\
+e! & reloads the original version of the file \\
+\hline
+w & moves to the beginning of next word \\
+b & moves to the previous beginning word \\
+e & moves to the next end word \\
+ge & moves to the previous end word \\
+\end{tabular} \\
+
+%\vspace*{1cm}
+$<---<--<-<------<--$ \hspace*{1cm} $--->-->->----------->$ \\
+\hspace*{1.5cm} b \hspace{0.78cm}b \hspace*{0.5cm} b \hspace*{1cm} 2b \hspace*{1.2cm} b \hspace*{1.5cm} w \hspace*{0.8cm} w \hspace*{0.4cm} w \hspace*{1.5cm} 3w \\
+
+\hspace*{4.2cm}$<--<---$ \hspace*{1cm } $---->--->$ \\
+\hspace*{5.2cm} ge \hspace*{0.6cm} ge  \hspace*{2cm} e \hspace*{1cm} e\\
+
+
+\begin{tabular}{p{2cm} p{13cm}}
+W(uppercase) & same than $w$, but jumps between spaces \\
+E(uppercase) & same than $e$, but jumps between spaces \\
+B(uppercase) & same than $b$, but jumps between spaces \\
+gE(uppercase) & same than $ge$, but jumps between spaces \\
+\hline
+asdf & asdf \\
+
+\end{tabular}
+
+\newpage
+\section*{Set commands}
+An obtion with a "no" at its begining it's set to off. \\
+
+\begin{tabular}{p{4cm} l}
+:set showmode & to be able to see the actual mode, the one you're in \\
+
+\end{tabular}
+\end{document}
