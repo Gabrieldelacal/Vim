@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.12)  15 JUL 2014 08:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.12)  15 JUL 2014 12:32
 entering extended mode
  %&-line parsing enabled.
 **VimTutor.tex
@@ -469,7 +469,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 
-Overfull \hbox (24.77359pt too wide) in paragraph at lines 49--68
+Overfull \hbox (33.30951pt too wide) in paragraph at lines 49--68
 [][] 
  []
 
@@ -489,25 +489,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
  []
 
 
-Overfull \hbox (24.77359pt too wide) in paragraph at lines 77--89
+Overfull \hbox (33.30951pt too wide) in paragraph at lines 77--88
 [][] 
  []
 
+[5]
+Overfull \hbox (38.99997pt too wide) in paragraph at lines 89--97
+[][] 
+ []
 
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [5]
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 [7] (./VimTutor.aux) ) 
 Here is how much of TeX's memory you used:
- 2711 strings out of 495061
- 32929 string characters out of 1182621
- 103060 words of memory out of 3000000
- 5892 multiletter control sequences out of 15000+50000
+ 2715 strings out of 495061
+ 32988 string characters out of 1182621
+ 102060 words of memory out of 3000000
+ 5896 multiletter control sequences out of 15000+50000
  5658 words of font info for 21 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  27i,9n,28p,231b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -516,7 +517,7 @@ cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on VimTutor.pdf (7 pages, 68423 bytes).
+Output written on VimTutor.pdf (7 pages, 69044 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
