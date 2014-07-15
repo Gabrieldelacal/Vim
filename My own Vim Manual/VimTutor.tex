@@ -1,5 +1,5 @@
 \documentclass[11p]{book}
-\usepackage{amsmath,mathtools}
+\usepackage{amsmath}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
@@ -8,7 +8,7 @@
 % \usepackage{upquote}% getting the right grave ` (and not ‘)!
 
 \begin{document}
-These are notes of $Vim$ taken by myself. Not all commands are listed in this list.
+These are notes of $Vim$ taken by myself from books. Not all commands are listed in these lists.
 \chapter*{Vim Commands List}
 \newpage
 
@@ -46,16 +46,16 @@ By writing $$operator \quad [number] \quad motion$$ the operation $operator$ is 
 
 "$:help$" gives you generic help. \\
 
-\begin{tabular}{p{2cm} p{13cm}}
+\begin{tabular}{p{2.5cm} p{13cm}}
 i & to start the Insert mode \\
 a & to start the Insert mode at the consecutive cursor's position\\
 v & to start the Visual mode \\
 x & to delete the character where the cursor is \\
 J & joins the next line with the actual one, which the cursor is in and it isn't need to be it at the end \\
 CTRL-R & undoes the undo \\
-CTRL-O & undoes de undoing of undo \\
+CTRL-O & undoes the undone undo \\
 o & opens a new empty line below the cursor and puts $Vim$ in Insert mode \\
-O(uppercase) & opens a new empty line above the cursor in Insert Mode \\
+O (uppercase) & opens a new empty line above the cursor in Insert Mode \\
 ZZ & This writes the file and exits. \\
 q! & Quit and throw things away command, whitout saving changes. \\
 e! & reloads the original version of the file \\
@@ -74,14 +74,17 @@ $<---<--<-<------<--$ \hspace*{1cm} $--->-->->----------->$ \\
 \hspace*{5.2cm} ge \hspace*{0.6cm} ge  \hspace*{2cm} e \hspace*{1cm} e\\
 
 
-\begin{tabular}{p{2cm} p{13cm}}
-W(uppercase) & same than $w$, but jumps between spaces \\
-E(uppercase) & same than $e$, but jumps between spaces \\
-B(uppercase) & same than $b$, but jumps between spaces \\
-gE(uppercase) & same than $ge$, but jumps between spaces \\
+\begin{tabular}{p{2.5cm} p{13cm}}
+W (uppercase) & same than $w$, but jumps between spaces \\
+E (uppercase) & same than $e$, but jumps between spaces \\
+B (uppercase) & same than $b$, but jumps between spaces \\
+gE (uppercase) & same than $ge$, but jumps between spaces \\
 \hline
-asdf & asdf \\
-
+0 (zero) & moves the cursor to the first non-blank character of the line \\
+\$ & moves the cursor to the end of the line \\
+f$<character>$ & moves forward in tyhe line where $<character>$ is. \\
+ & This also admits a count. By "$3fl$" the cursor is moved to the third "$l$".\\
+F$<character>$ & same as "$f$", but it goes backward \\
 \end{tabular}
 
 \newpage

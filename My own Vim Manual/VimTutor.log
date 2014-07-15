@@ -1,17 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.16)  14 JUL 2014 22:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.12)  15 JUL 2014 08:28
 entering extended mode
  %&-line parsing enabled.
 **VimTutor.tex
 (./VimTutor.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/bk10.clo
@@ -88,36 +82,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf-texlive/tex/latex/mh/mathtools.sty
-Package: mathtools 2008/08/01 v1.06 mathematical typesetting tools (MH)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks19
-)
-(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count100
-\calc@Bcount=\count101
-\calc@Adimen=\dimen112
-\calc@Bdimen=\dimen113
-\calc@Askip=\skip46
-\calc@Bskip=\skip47
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count102
-\calc@Cskip=\skip48
-)
-(/usr/share/texmf-texlive/tex/latex/mh/mhsetup.sty
-Package: mhsetup 2007/12/03 v1.2 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count103
-\l_MT_multwidth_dim=\dimen114
-)
 (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks20
-\inpenc@posthook=\toks21
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 
 (/usr/share/texmf-texlive/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -331,7 +299,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/var/lib/texmf/tex/generic/babel/babel.sty
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
@@ -339,20 +307,29 @@ Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
 (/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count104
-\U@D=\dimen115
+\babel@savecnt=\count100
+\U@D=\dimen112
 )
-\es@datefmt=\count105
-\es@quottoks=\toks22
-\es@quotdepth=\count106
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Spanish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@spanish = a dialect from \language0
+\es@datefmt=\count101
+\es@quottoks=\toks21
+\es@quotdepth=\count102
 Package babel Info: Making " an active character on input line 492.
 Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
-))
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+)) (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
 (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -366,10 +343,10 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count107
+\Gread@gobject=\count103
 ))
-\Gin@req@height=\dimen116
-\Gin@req@width=\dimen117
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
 )
 (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
@@ -382,16 +359,15 @@ Package ifpdf Info: pdfTeX in pdf mode detected.
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count108
-\Gm@cntv=\count109
-\c@Gm@tempcnt=\count110
-\Gm@bindingoffset=\dimen118
-\Gm@wd@mp=\dimen119
-\Gm@odd@mp=\dimen120
-\Gm@even@mp=\dimen121
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
 \Gm@dimlist=\toks23
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 
 Package geometry Warning: Over-specification in `h'-direction.
     `width' (597.50787pt) is ignored.
@@ -421,15 +397,15 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen122
+\scratchcounter=\count107
+\scratchdimen=\dimen119
 \scratchbox=\box28
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count108
+\nofMParguments=\count109
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen123
-\MPnumerator=\count115
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen120
+\MPnumerator=\count111
 \everyMPtoPDFconversion=\toks25
 )
 *geometry auto-detecting driver*
@@ -493,12 +469,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 
-Overfull \hbox (1.78906pt too wide) in paragraph at lines 58--58
-[]\OT1/cmr/m/n/10 O(uppercase)| 
- []
-
-
-Overfull \hbox (10.54721pt too wide) in paragraph at lines 49--68
+Overfull \hbox (24.77359pt too wide) in paragraph at lines 49--68
 [][] 
  []
 
@@ -518,52 +489,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
  []
 
 
-Overfull \hbox (4.28906pt too wide) in paragraph at lines 78--78
-[]\OT1/cmr/m/n/10 W(uppercase)| 
- []
-
-
-Overfull \hbox (0.81683pt too wide) in paragraph at lines 79--79
-[]\OT1/cmr/m/n/10 E(uppercase)| 
- []
-
-
-Overfull \hbox (1.09462pt too wide) in paragraph at lines 80--80
-[]\OT1/cmr/m/n/10 B(uppercase)| 
- []
-
-
-Overfull \hbox (5.81685pt too wide) in paragraph at lines 81--81
-[]\OT1/cmr/m/n/10 gE(uppercase)| 
- []
-
-
-Overfull \hbox (10.54721pt too wide) in paragraph at lines 77--86
+Overfull \hbox (24.77359pt too wide) in paragraph at lines 77--89
 [][] 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [5]
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[6] (./VimTutor.aux) ) 
+[7] (./VimTutor.aux) ) 
 Here is how much of TeX's memory you used:
- 3130 strings out of 493848
- 40000 string characters out of 1152823
- 111305 words of memory out of 3000000
- 6395 multiletter control sequences out of 15000+50000
+ 2711 strings out of 495061
+ 32929 string characters out of 1182621
+ 103060 words of memory out of 3000000
+ 5892 multiletter control sequences out of 15000+50000
  5658 words of font info for 21 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 27i,9n,31p,231b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28 hyphenation exceptions out of 8191
+ 27i,9n,28p,231b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on VimTutor.pdf (6 pages, 66078 bytes).
+Output written on VimTutor.pdf (7 pages, 68423 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
